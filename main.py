@@ -17,5 +17,5 @@ while True:
         response = chatbot.get_response(request)
         print(f"🤌\tSuper Bot ⭐: ", response)
     except (KeyboardInterrupt, EOFError, SystemExit):
-        print("Thanks for try this chatbot!")
+        print("\n\nThanks for try this chatbot!")
         break
